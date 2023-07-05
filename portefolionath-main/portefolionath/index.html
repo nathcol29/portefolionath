@@ -95,17 +95,17 @@ footer-->
             <div class="grid">
                 <div class="hero__item left">
                     <span>Concepteur Designer UI</span>
-                    <h1 class="title">Hello, je suis Nathalie Colivet de Brest</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur aperiam eius
-                        necessitatibus unde quisquam magni rerum?
-                        Magnam consectetur maxime inventore
-                        laborum quidem deserunt veniam neque atque minus! Laudantium, excepturi!</p>
+                    <h1 class="title">Hello, je suis Nathalie Colivet.</h1>
+                    <p>Passionnée par le graphisme depuis toujours, je souhaite pouvoir intégrer une entreprise de design crétive. <br>
+                        Autonome, organiséee et curiuse, j'ai une grande capacité d'adaptation et suis convaincue que toutes
+                        ses qualités seront un atout dans ce domaine.
+                    </p>
                         
                 </div>
                 <div class="hero__item right">
                     <div class="hero__avatar">
-                        <img width="560" height=" 453" src="./img/nath aéro.jpg"
-                            alt="Colivet Nathalie Concepteur Designer UI">
+                        <img width="560" height=" 453" src="./img/nath transparent.png"
+                          loading="lazy"  alt="Colivet Nathalie Concepteur Designer UI">
                     </div>
                 </div>
             </div>
@@ -396,10 +396,22 @@ footer-->
         <div class="grid">
             <div class="grid__item">
                 <div class="card">
-                    <img src="https://picsum.photos/400/400?random=1" alt="" class="card__image">
+                    <img src="https://picsum.photos/400/400?random=1" alt=""  loading="lazy"class="card__image" >
+                    <div class="card__inner">
+                        <h3 class="card__title" >Titre du projet</h3>
+                        <p class="cliquez"> <a href="blog.html">Cliquez moi</a> </p>
+                    </div>
+                    <div class="card__overlay">
+                        <a href="#">+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__item">
+                <div class="card">
+                    <img src="https://picsum.photos/400/400?random=2" alt=""  loading="lazy" class="card__image">
                     <div class="card__inner">
                         <h3 class="card__title" ><a href="blog.html">Titre du projet</a></h3>
-                        <p class="category">Développement Web</p>
+                        <p class="cliquez"><a href="blog.html">Cliquez moi</a></p>
                     </div>
                     <div class="card__overlay">
                         <a href="#">+</a>
@@ -408,22 +420,10 @@ footer-->
             </div>
             <div class="grid__item">
                 <div class="card">
-                    <img src="https://picsum.photos/400/400?random=2" alt="" class="card__image">
-                    <div class="card__inner">
-                        <h3 class="card__title" ><a href="blog.html">Titre du projet</a></h3>
-                        <p class="category">Refonte Graphique</p>
-                    </div>
-                    <div class="card__overlay">
-                        <a href="#">+</a>
-                    </div>
-                </div>
-            </div>
-            <div class="grid__item">
-                <div class="card">
-                    <img src="https://picsum.photos/400/400?random=3" alt="" class="card__image">
+                    <img src="https://picsum.photos/400/400?random=3" alt="" loading="lazy" class="card__image">
                     <div class="card__inner">
                         <h3 class="card__title">Titre du projet</h3>
-                        <p class="category">Applications</p>
+                        <p class="cliquez"><a href="blog.html">Cliquez moi</a></p>
                     </div>
                     <div class="card__overlay">
                         <a href="#">+</a>
@@ -432,10 +432,10 @@ footer-->
             </div>
             <div class="grid__item">
                 <div class="card">
-                    <img src="https://picsum.photos/400/400?random=4" alt="" class="card__image">
+                    <img src="https://picsum.photos/400/400?random=4" alt="" loading="lazy" class="card__image">
                     <div class="card__inner">
                         <h3 class="card__title">Titre du projet</h3>
-                        <p class="category">Développement Web</p>
+                        <p class="cliquez"><a href="blog.html">Cliquez moi</a></p>
                     </div>
                     <div class="card__overlay">
                         <a href="#">+</a>
@@ -444,10 +444,10 @@ footer-->
             </div>
             <div class="grid__item">
                 <div class="card">
-                    <img src="https://picsum.photos/400/400?random=5" alt="" class="card__image">
+                    <img src="https://picsum.photos/400/400?random=5" alt="" loading="lazy" class="card__image">
                     <div class="card__inner">
                         <h3 class="card__title">Titre du projet</h3>
-                        <p class="category">Refonte Graphique</p>
+                        <p class="cliquez"><a href="blog.html">Cliquez moi</a></p>
                     </div>
                     <div class="card__overlay">
                         <a href="#">+</a>
@@ -456,10 +456,10 @@ footer-->
             </div>
             <div class="grid__item">
                 <div class="card">
-                    <img src="https://picsum.photos/400/400?random=6" alt="" class="card__image">
+                    <img src="https://picsum.photos/400/400?random=6" alt="" loading="lazy" class="card__image">
                     <div class="card__inner">
                         <h3 class="card__title">Titre du projet</h3>
-                        <p class="category">Applications</p>
+                        <p class="cliquez"><a href="blog.html">Cliquez moi</a></p>
                     </div>
                     <div class="card__overlay">
                         <a href="#">+</a>
@@ -484,15 +484,15 @@ footer-->
                     est unde quae enim. Cumque
                     enim c, assumenda error fugit pariatur ea cum?</p>
             </div>
-            <form action="contact.php" class="form">
+            <form action="https://formsubmit.co/nathalie.colivet@gmail.com" method="POST" class="form">
                 <label for="firstname">
-                    <input type="text" name="firstname" id="firstname" placeholder="Nom">
+                    <input type="text" name="firstname" id="firstname" placeholder="Nom" required>
                 </label>
                 <label for="lastname">
-                    <input type="text" name="lastname" id="lastname" placeholder="Prénom">
+                    <input type="text" name="lastname" id="lastname" placeholder="Prénom" required>
                 </label>
                 <label for="firstname">
-                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="email" name="email" id="email" placeholder="Email" required>
                 </label>
                 <textarea name="message" id="message" placeholder="Message"></textarea>
                 <input type="submit" class="btn" value="Envoyer">
