@@ -838,3 +838,16 @@ footer .grid {
     padding-bottom: 2rem;
 }
 
+
+
+.haut {
+    position: relative;
+    width: 80px;
+    height: 80px;
+     float: right;
+    right: 40px;
+    position: fixed;
+    top: 650px;
+    cursor: pointer;
+}
+
